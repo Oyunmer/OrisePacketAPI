@@ -21,7 +21,7 @@ public class PacketSkills {
         }
     }
     
-    public static void windStorm(Location loc, float radius, float height, EnumParticle enumParticle) {
+    public static void drawTornado(Location loc, float radius, float height, EnumParticle enumParticle) {
         float y = (float) loc.getY();
         for(double t = 0; t<50; t+=0.05){
             float x = radius*(float)Math.sin(t);
