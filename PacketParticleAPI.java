@@ -8,7 +8,17 @@ import org.bukkit.entity.Player;
 import net.minecraft.server.v1_8_R3.EnumParticle;
 import net.minecraft.server.v1_8_R3.PacketPlayOutWorldParticles;
 
-public class PacketSkills {
+public class PacketParticleAPI extends JavaPlugin {
+
+	@Override
+	public void onEnable() {
+		
+	}
+	
+	@Override
+	public void onDisable() {
+		
+	}
 	
     public static void drawCircle(Location loc, float radius, EnumParticle enumParticle) {
         for(double t = 0; t<50; t+=0.5){
@@ -35,3 +45,4 @@ public class PacketSkills {
         }
     }
 }
+
